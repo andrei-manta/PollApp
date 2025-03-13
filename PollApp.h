@@ -1,6 +1,7 @@
-#pragma once
+#ifndef POLLAPP_H
+#define POLLAPP_H
 
-#include <QtWidgets/QMainWindow>
+#include "QtWidgets/qmainwindow.h"
 #include "ui_PollApp.h"
 
 class PollApp : public QMainWindow
@@ -14,3 +15,5 @@ public:
 private:
     Ui::PollAppClass ui;
 };
+
+#endif

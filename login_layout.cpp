@@ -3,9 +3,9 @@
 Login_layout::Login_layout(QWidget* parent)
 {
 	layout_h = new QHBoxLayout(parent);
-	text_edit_mail = new QTextEdit();
+	text_edit_mail = new QLineEdit();
 	label_mail = new QLabel(QString("E-mail:"));
-	text_edit_password = new QTextEdit();
+	text_edit_password = new QLineEdit();
 	label_password = new QLabel(QString("Password:"));
 	button_login = new QPushButton(QString("Login"));
 	button_return = new QPushButton(QString("Return"));

@@ -2,7 +2,7 @@
 #define REGISTER_LAYOUT_H
 
 #include <QLabel>
-#include <QTextEdit>
+#include <QLineEdit>
 #include <QPushButton>
 #include <QHBoxLayout>
 
@@ -11,13 +11,13 @@ class Register_layout
 private:
 	QHBoxLayout* layout_h;
 	QLabel* label_username;
-	QTextEdit* text_edit_username;
+	QLineEdit* text_edit_username;
 	QLabel* label_email;
-	QTextEdit* text_edit_email;
+	QLineEdit* text_edit_email;
 	QLabel* label_password;
-	QTextEdit* text_edit_password;
+	QLineEdit* text_edit_password;
 	QLabel* label_country;
-	QTextEdit* text_edit_country;
+	QLineEdit* text_edit_country;
 	QPushButton* button_register;
 	QPushButton* button_return;
 

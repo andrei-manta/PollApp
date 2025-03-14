@@ -4,13 +4,13 @@ Register_layout::Register_layout(QWidget* parent)
 {
 	layout_h = new QHBoxLayout(parent);
 	label_username = new QLabel(QString("Desired username:"));
-	text_edit_username = new QTextEdit();
+	text_edit_username = new QLineEdit();
 	label_email = new QLabel(QString("E-mail:"));
-	text_edit_email = new QTextEdit();
+	text_edit_email = new QLineEdit();
 	label_password = new QLabel(QString("Password:"));
-	text_edit_password = new QTextEdit();
+	text_edit_password = new QLineEdit();
 	label_country = new QLabel(QString("Country:"));
-	text_edit_country = new QTextEdit();
+	text_edit_country = new QLineEdit();
 	button_register = new QPushButton(QString("Register"));
 	button_return = new QPushButton(QString("Return"));
 

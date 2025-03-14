@@ -4,18 +4,19 @@
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/qpushbutton.h>
 #include <qmainwindow.h>
-#include <memory>
 
 class Login_register_guest_layout
 {
 private:
-	std::unique_ptr<QHBoxLayout> l_horiz;
-	std::unique_ptr<QPushButton> b_login;
-	std::unique_ptr<QPushButton> b_register;
-	std::unique_ptr<QPushButton> b_guest;
+	QHBoxLayout* l_horiz;
+	QPushButton* b_login;
+	QPushButton* b_register;
+	QPushButton* b_guest;
 
 public:
 	Login_register_guest_layout(QMainWindow* parent);
 	~Login_register_guest_layout() = default;
+
+	QHBoxLayout* get_layout();
 };
 #endif

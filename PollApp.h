@@ -10,7 +10,7 @@ class PollApp : public QMainWindow
 
 public:
     PollApp(QWidget *parent = nullptr);
-    ~PollApp();
+    ~PollApp() = default;
 
 private:
     Ui::PollAppClass ui;

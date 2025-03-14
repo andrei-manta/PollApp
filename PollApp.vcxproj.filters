@@ -49,6 +49,12 @@
     <ClCompile Include="register_layout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="feed_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="account_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="login_register_guest_layout.h">
@@ -58,6 +64,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="register_layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="feed_layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="account_layout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

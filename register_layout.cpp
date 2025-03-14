@@ -7,7 +7,7 @@ Register_layout::Register_layout(QWidget* parent)
 	text_edit_username = new QTextEdit();
 	label_email = new QLabel(QString("E-mail:"));
 	text_edit_email = new QTextEdit();
-	label_password = new QLabel(QString("Password"));
+	label_password = new QLabel(QString("Password:"));
 	text_edit_password = new QTextEdit();
 	label_country = new QLabel(QString("Country:"));
 	text_edit_country = new QTextEdit();

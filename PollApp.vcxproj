@@ -92,6 +92,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="account_layout.cpp" />
+    <ClCompile Include="feed_layout.cpp" />
     <ClCompile Include="register_layout.cpp" />
     <QtRcc Include="PollApp.qrc" />
     <QtUic Include="PollApp.ui" />
@@ -102,6 +104,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="account_layout.h" />
+    <ClInclude Include="feed_layout.h" />
     <ClInclude Include="login_layout.h" />
     <ClInclude Include="login_register_guest_layout.h" />
     <ClInclude Include="register_layout.h" />

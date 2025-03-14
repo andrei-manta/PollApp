@@ -11,9 +11,9 @@ class Login_layout
 private:
 	QHBoxLayout* layout_h;
 	QLabel* label_mail;
-	QLineEdit* text_edit_mail;
+	QLineEdit* line_edit_mail;
 	QLabel* label_password;
-	QLineEdit* text_edit_password;
+	QLineEdit* line_edit_password;
 	QPushButton* button_login;
 	QPushButton* button_return;
 

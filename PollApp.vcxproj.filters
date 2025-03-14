@@ -55,6 +55,9 @@
     <ClCompile Include="account_layout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="create_poll_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="login_register_guest_layout.h">
@@ -70,6 +73,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="account_layout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="create_poll_layout.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

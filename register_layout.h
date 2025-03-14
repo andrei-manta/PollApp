@@ -11,13 +11,13 @@ class Register_layout
 private:
 	QHBoxLayout* layout_h;
 	QLabel* label_username;
-	QLineEdit* text_edit_username;
+	QLineEdit* line_edit_username;
 	QLabel* label_email;
-	QLineEdit* text_edit_email;
+	QLineEdit* line_edit_email;
 	QLabel* label_password;
-	QLineEdit* text_edit_password;
+	QLineEdit* line_edit_password;
 	QLabel* label_country;
-	QLineEdit* text_edit_country;
+	QLineEdit* line_edit_country;
 	QPushButton* button_register;
 	QPushButton* button_return;
 

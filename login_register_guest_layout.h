@@ -1,9 +1,9 @@
 #ifndef LOGIN_REGISTER_GUEST_LAYOUT_H
 #define LOGIN_REGISTER_GUEST_LAYOUT_H
 
-#include <QtWidgets/QHBoxLayout>
+#include <QHBoxLayout>
 #include <QtWidgets/qpushbutton.h>
-#include <qmainwindow.h>
+#include <QtWidgets/qmainwindow.h>
 
 class Login_register_guest_layout
 {
@@ -14,7 +14,7 @@ private:
 	QPushButton* b_guest;
 
 public:
-	Login_register_guest_layout(QMainWindow* parent);
+	Login_register_guest_layout(QWidget* parent);
 	~Login_register_guest_layout() = default;
 
 	QHBoxLayout* get_layout();

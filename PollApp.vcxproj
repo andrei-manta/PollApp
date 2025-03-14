@@ -95,11 +95,13 @@
     <QtRcc Include="PollApp.qrc" />
     <QtUic Include="PollApp.ui" />
     <QtMoc Include="PollApp.h" />
+    <ClCompile Include="login_layout.cpp" />
     <ClCompile Include="login_register_guest_layout.cpp" />
     <ClCompile Include="PollApp.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="login_layout.h" />
     <ClInclude Include="login_register_guest_layout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

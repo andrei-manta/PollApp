@@ -1,6 +1,7 @@
-#pragma once
+#ifndef POLLAPP_H
+#define POLLAPP_H
 
-#include <QtWidgets/QMainWindow>
+#include "QtWidgets/qmainwindow.h"
 #include "ui_PollApp.h"
 
 class PollApp : public QMainWindow
@@ -9,8 +10,10 @@ class PollApp : public QMainWindow
 
 public:
     PollApp(QWidget *parent = nullptr);
-    ~PollApp();
+    ~PollApp() = default;
 
 private:
     Ui::PollAppClass ui;
 };
+
+#endif

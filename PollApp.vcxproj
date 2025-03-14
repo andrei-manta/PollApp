@@ -92,11 +92,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="account_layout.cpp" />
+    <ClCompile Include="create_poll_layout.cpp" />
+    <ClCompile Include="feed_layout.cpp" />
+    <ClCompile Include="my_polls_layout.cpp" />
+    <ClCompile Include="register_layout.cpp" />
+    <ClCompile Include="saved_polls_layout.cpp" />
     <QtRcc Include="PollApp.qrc" />
     <QtUic Include="PollApp.ui" />
     <QtMoc Include="PollApp.h" />
+    <ClCompile Include="login_layout.cpp" />
+    <ClCompile Include="login_register_guest_layout.cpp" />
     <ClCompile Include="PollApp.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="account_layout.h" />
+    <ClInclude Include="create_poll_layout.h" />
+    <ClInclude Include="feed_layout.h" />
+    <ClInclude Include="login_layout.h" />
+    <ClInclude Include="login_register_guest_layout.h" />
+    <ClInclude Include="my_polls_layout.h" />
+    <ClInclude Include="register_layout.h" />
+    <ClInclude Include="saved_polls_layout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

@@ -5,6 +5,7 @@
 #include "feed_layout.h"
 #include "account_layout.h"
 #include "create_poll_layout.h"
+#include "my_polls_layout.h"
 
 PollApp::PollApp(QWidget *parent)
     : QMainWindow(parent)
@@ -45,6 +46,11 @@ PollApp::PollApp(QWidget *parent)
     Create_poll_layout* create_poll_layout = new Create_poll_layout(widget_create_poll_layout);
     widget_create_poll_layout->setLayout(create_poll_layout->get_layout());
 
+    QWidget* widget_my_polls_layout = new QWidget(this);
+    widget_my_polls_layout->setVisible(false);
+    My_polls_layout* my_polls_layout = new My_polls_layout(widget_my_polls_layout);
+    widget_my_polls_layout->setLayout(my_polls_layout->get_layout());
+
     //add all the layouts to the main window
 
     //this->setCentralWidget(widget_l_g_r_layout);
@@ -57,6 +63,8 @@ PollApp::PollApp(QWidget *parent)
     //widget_feed_layout->setVisible(true);
     //this->setCentralWidget(widget_account_layout);
     //widget_account_layout->setVisible(true);
-    this->setCentralWidget(widget_create_poll_layout);
-    widget_create_poll_layout->setVisible(true);
+    //this->setCentralWidget(widget_create_poll_layout);
+    //widget_create_poll_layout->setVisible(true);
+    //this->setCentralWidget(widget_my_polls_layout);
+    //widget_my_polls_layout->setVisible(true);
 }

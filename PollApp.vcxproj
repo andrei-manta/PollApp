@@ -97,6 +97,7 @@
     <ClCompile Include="feed_layout.cpp" />
     <ClCompile Include="my_polls_layout.cpp" />
     <ClCompile Include="register_layout.cpp" />
+    <ClCompile Include="saved_polls_layout.cpp" />
     <QtRcc Include="PollApp.qrc" />
     <QtUic Include="PollApp.ui" />
     <QtMoc Include="PollApp.h" />
@@ -113,6 +114,7 @@
     <ClInclude Include="login_register_guest_layout.h" />
     <ClInclude Include="my_polls_layout.h" />
     <ClInclude Include="register_layout.h" />
+    <ClInclude Include="saved_polls_layout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

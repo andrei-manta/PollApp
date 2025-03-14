@@ -15,9 +15,7 @@ private:
 	std::unique_ptr<QPushButton> b_guest;
 
 public:
-	//pass a pointer to the main window where this layout will reside
 	Login_register_guest_layout(QMainWindow* parent);
-	~Login_register_guest_layout();
+	~Login_register_guest_layout() = default;
 };
-
 #endif
